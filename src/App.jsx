@@ -15,23 +15,29 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/work" element={<Work />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/contact" element={<Contact />} />
 
         <Route
           path="/work/credit-lending"
           element={<CreditLending />}
         />
+
         <Route
           path="/work/clickbait"
           element={<Clickbait />}
         />
+
         <Route
           path="/work/classdle"
           element={<Classdle />}
         />
+
+        <Route path="/about" element={<About />} />
+
+        <Route path="/skills" element={<Skills />} />
+
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

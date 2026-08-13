@@ -2,23 +2,40 @@ export const projects = [
   {
     id: "credit-lending",
     number: "01",
+    category: "AI / FINTECH / BLOCKCHAIN",
+
     title: "AI + Credit Lending Platform",
-    shortTitle: "AI + Credit Lending",
-    category: "AI · BLOCKCHAIN · WEB · CLOUD",
+
+    heroTitle: "AI + CREDIT LENDING PLATFORM",
 
     description:
-      "[ADD 1–2 SENTENCE PROJECT DESCRIPTION]",
+      "A software engineering project combining AI-driven credit-risk assessment with a blockchain-based lending platform.",
 
-    image: "/images/projects/credit-lending/hero.png",
+    overview:
+      "A nine-person software engineering project that combines artificial intelligence for credit-risk assessment with blockchain-based lending. The project was developed across two collaborating teams: five members focused on AI and full-stack development, while four members focused on the blockchain component.",
+
+    role:
+      "Project Lead / AI Developer",
+
+    type: "Team Software Engineering Project",
+
+    status:
+      "Completed",
 
     technologies: [
-      "[TECHNOLOGY]",
-      "[TECHNOLOGY]",
-      "[TECHNOLOGY]",
+      "Python",
+      "FastAPI",
+      "JavaScript",
+      "Solidity",
+      "Hardhat",
+      "Supabase",
+      "Ethereum",
     ],
 
     github:
       "https://github.com/NinjaTaco51/credit-lending-ai-blockchain",
+
+    image: null,
 
     featured: true,
   },
