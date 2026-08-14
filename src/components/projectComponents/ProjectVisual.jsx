@@ -2,7 +2,7 @@ import Reveal from "../Reveal";
 
 function ProjectVisual({
   label = "[PROJECT VISUAL]",
-  aspect = "aspect-[16/9]",
+  aspect = "",
   src = null,
   alt = "",
   caption = null,

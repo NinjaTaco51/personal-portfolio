@@ -37,6 +37,13 @@ export const projects = [
 
     image: null,
 
+    gallery: [
+      "../../public/images/projects/credit-lending/individuals-loans.png",
+      "../../public/images/projects/credit-lending/loan-payment-req.png",
+      "../../public/images/projects/credit-lending/make-loan-req.png",
+      "../../public/images/projects/credit-lending/profile-page.png",
+    ],
+
     featured: true,
   },
 

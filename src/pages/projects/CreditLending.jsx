@@ -23,6 +23,9 @@ function CreditLending() {
           {project.overview}
         </p>
 
+        <br/>
+        <TechStack technologies={project.technologies} />
+
         <div className="mt-12">
           <ProjectMeta project={project} />
         </div>
@@ -94,7 +97,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[PLATFORM OVERVIEW VISUAL]"
-          caption="[SHOW A SCREENSHOT OR COMPOSITE OF THE MAIN USER EXPERIENCE.]"
+          src="../../public/images/projects/credit-lending/loan-req-page.png"
         />
       </ProjectSection>
 
@@ -124,7 +127,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[ARCHITECTURE DIAGRAM]"
-          caption="[SHOW THE RELATIONSHIP BETWEEN THE CLIENT, APPLICATION SERVICES, AI CREDIT MODEL, LENDING APPLICATION, AND BLOCKCHAIN COMPONENTS.]"
+          src="../../public/images/projects/credit-lending/system-architecture.png"
         />
       </ProjectSection>
 
@@ -188,7 +191,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[AI PIPELINE VISUAL]"
-          caption="[SHOW USER INPUT → FEATURE PROCESSING → PYTORCH MODEL → RISK CALCULATION → CREDIT SCORE.]"
+          src="../../public/images/projects/credit-lending/ai-pipeline.png"
         />
 
         <h3 className="mt-16 text-3xl font-semibold tracking-tight md:text-4xl">
@@ -245,7 +248,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[BLOCKCHAIN WORKFLOW VISUAL]"
-          caption="[SHOW THE LOAN REQUEST → FUNDING → REPAYMENT WORKFLOW IMPLEMENTED BY THE BLOCKCHAIN TEAM.]"
+          src="../../public/images/projects/credit-lending/blockchain-pipeline.png"
         />
 
         <h3 className="mt-16 text-3xl font-semibold tracking-tight md:text-4xl">
@@ -305,13 +308,8 @@ function CreditLending() {
 
         <ProjectVisual
           label="[IMPLEMENTATION FLOW VISUAL]"
-          caption="[SHOW THE DATA FLOW FROM USER INPUT THROUGH PREPROCESSING, MODEL INFERENCE, RISK BLENDING, AND FINAL CREDIT SCORE.]"
+          src="../../public/images/projects/credit-lending/credit-assessment-dashboard.png"
         />
-      </ProjectSection>
-
-      {/* Technology */}
-      <ProjectSection title="Technology">
-        <TechStack technologies={project.technologies} />
       </ProjectSection>
 
       {/* Challenges */}
