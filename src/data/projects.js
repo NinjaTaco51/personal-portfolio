@@ -35,7 +35,7 @@ export const projects = [
     github:
       "https://github.com/NinjaTaco51/credit-lending-ai-blockchain",
 
-    image: null,
+    image: "../../public/images/projects/credit-lending/credit-assessment-dashboard.png",
 
     gallery: [
       "../../public/images/projects/credit-lending/individuals-loans.png",
@@ -87,14 +87,27 @@ export const projects = [
     id: "classdle",
     number: "03",
     title: "Classdle",
-    heroTitle:"CLASSDLE",
+    heroTitle: "CLASSDLE",
     shortTitle: "Classdle",
     category: "MOBILE · DART · ANDROID",
 
-    description:
-      "A Wordle-inspired game using Cal Poly Pomona courses instead of words.",
+    overview:
+      "Classdle is a Flutter-based recreation of Wordle that reimagines the game around Cal Poly Pomona courses. Instead of guessing a word, players use course information and feedback from previous guesses to identify the correct course.",
 
-    image: "/images/projects/classdle/hero.png",
+    description:
+      "Wordle, reimagined around Cal Poly Pomona courses.",
+
+    image: "../../public/images/projects/classdle/landing.png",
+
+    gallery: null,
+
+    role:
+      "App Developer",
+
+    type: "Class Project",
+
+    status:
+      "Completed",
 
     technologies: [
       "Dart",

@@ -1,6 +1,6 @@
 import Reveal from "../Reveal";
 
-function ProjectHeroSingle({ project }) {
+function ProjectHeroSingle({ project, mobile = false }) {
   return (
     <section className="border-b border-border">
       <div className="mx-auto max-w-[1400px] px-6 py-24 lg:px-10 lg:py-32">
@@ -23,24 +23,41 @@ function ProjectHeroSingle({ project }) {
         </Reveal>
 
         <Reveal className="mt-16">
-          <div className="relative overflow-hidden border border-border bg-surface">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="font-mono text-xs uppercase tracking-wider text-text-muted">
-                [HERO PROJECT SCREENSHOT]
-              </span>
+          {mobile ? (
+            <div className="flex justify-center">
+              <div className="w-full max-w-[320px] overflow-hidden rounded-[2rem] border border-border bg-surface shadow-sm">
+                {project.image && (
+                  <img
+                    src={project.image}
+                    alt=""
+                    className="block h-auto w-full"
+                    onError={(event) => {
+                      event.currentTarget.style.display = "none";
+                    }}
+                  />
+                )}
+              </div>
             </div>
+          ) : (
+            <div className="relative overflow-hidden border border-border bg-surface">
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="font-mono text-xs uppercase tracking-wider text-text-muted">
+                  [HERO PROJECT SCREENSHOT]
+                </span>
+              </div>
 
-            {project.image && (
-              <img
-                src={project.image}
-                alt=""
-                className="relative z-10 h-full w-full object-cover"
-                onError={(event) => {
-                  event.currentTarget.style.display = "none";
-                }}
-              />
-            )}
-          </div>
+              {project.image && (
+                <img
+                  src={project.image}
+                  alt=""
+                  className="relative z-10 h-full w-full object-cover"
+                  onError={(event) => {
+                    event.currentTarget.style.display = "none";
+                  }}
+                />
+              )}
+            </div>
+          )}
         </Reveal>
       </div>
     </section>
