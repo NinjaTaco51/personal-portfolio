@@ -51,13 +51,26 @@ export const projects = [
     id: "clickbait",
     number: "02",
     title: "Clickbait Simulation",
+    heroTitle: "CLICKBAIT SIMULATION",
     shortTitle: "Clickbait Simulation",
     category: "WEB · REACT · JAVASCRIPT",
 
     description:
-      "[ADD 1–2 SENTENCE PROJECT DESCRIPTION]",
+      "A hackathon experience designed to help elderly and non-technical users recognize common online scams with informative modules and quizzes.",
 
-    image: "/images/projects/clickbait/hero.png",
+    overview: "Clickbait Simulation is an interactive educational website designed to help elderly and non-technical users recognize common forms of deceptive online content.",
+
+    role:
+      "Web Developer",
+
+    type: "Team Hackathon Experience",
+
+    status:
+      "Completed",
+
+    image: "../../public/images/projects/clickbait/landing.png",
+
+    gallery: null,
 
     technologies: [
       "React",
@@ -74,6 +87,7 @@ export const projects = [
     id: "classdle",
     number: "03",
     title: "Classdle",
+    heroTitle:"CLASSDLE",
     shortTitle: "Classdle",
     category: "MOBILE · DART · ANDROID",
 

@@ -7,7 +7,7 @@ function ProjectSection({
 }) {
   return (
     <section
-      className={`mx-auto max-w-[1400px] px-6 py-15 lg:px-10 lg:py-20 ${className}`}
+      className={`mx-auto max-w-[1400px] px-6 py-12 lg:px-10 lg:py-16 ${className}`}
     >
       <div className="grid gap-10 md:grid-cols-12">
         <div className="md:col-span-3">
