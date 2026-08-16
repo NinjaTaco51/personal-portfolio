@@ -42,7 +42,7 @@ function Navbar() {
           ))}
 
           <a
-            href="../public/resume/davidlam_resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume/davidlam_resume.pdf`}
             target="_blank"
             rel="noreferrer"
             className="transition-colors hover:text-accent"
@@ -79,7 +79,7 @@ function Navbar() {
             ))}
 
             <a
-              href="/resume/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume/davidlam_resume.pdf`}
               onClick={closeMenu}
               className="font-mono text-sm uppercase tracking-wider text-text-secondary hover:text-accent"
             >

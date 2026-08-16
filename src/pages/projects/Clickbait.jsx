@@ -195,12 +195,12 @@ function Clickbait() {
 
         <ProjectVisual
           label="[MODULE PAGE SAMPLE]"
-          src="../../public/images/projects/clickbait/info.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/info.png`}
         />
 
         <ProjectVisual
           label="[QUIZ SAMPLE]"
-          src="../../public/images/projects/clickbait/quiz.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/quiz.png`}
         />
       </ProjectSection>
 
@@ -284,7 +284,7 @@ function Clickbait() {
 
         <ProjectVisual
           label="[INTERACTIVE WEBSITE SCREENSHOT]"
-          src="../../public/images/projects/clickbait/fake-website.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/fake-website.png`}
         />
       </ProjectSection>
 
@@ -383,7 +383,7 @@ function Clickbait() {
 
         <ProjectVisual
           label="[QUIZ SCREENSHOT]"
-          src="../../public/images/projects/clickbait/quiz-results.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/quiz-results.png`}
         />
       </ProjectSection>
 

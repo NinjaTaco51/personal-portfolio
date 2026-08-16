@@ -53,7 +53,7 @@ function Classdle() {
         </p>
 
         <MobileProjectVisual
-          src="../public/images/projects/classdle/daily.png"
+          src={`${import.meta.env.BASE_URL}images/projects/classdle/daily.png`}
           alt="Classdle gameplay screen"
         />
       </ProjectSection>
@@ -115,7 +115,7 @@ function Classdle() {
         </div>
 
         <MobileProjectVisual
-          src="../public/images/projects/classdle/landing-ext.png"
+          src={`${import.meta.env.BASE_URL}images/projects/classdle/landing-ext.png`}
           alt="Classdle gameplay screen"
         />
       </ProjectSection>
@@ -212,7 +212,7 @@ function Classdle() {
         </div>
 
         <MobileProjectVisual
-          src="../public/images/projects/classdle/win.png"
+          src={`${import.meta.env.BASE_URL}images/projects/classdle/win.png`}
           alt="Classdle gameplay screen"
         />
       </ProjectSection>
@@ -239,7 +239,7 @@ function Classdle() {
         </p>
 
         <MobileProjectVisual
-          src="../public/images/projects/classdle/game-in-progress.png"
+          src={`${import.meta.env.BASE_URL}images/projects/classdle/game-in-progress.png`}
           alt="Classdle gameplay screen"
         />
       </ProjectSection>

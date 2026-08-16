@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PageShell from "../components/PageShell";
 import Reveal from "../components/Reveal";
 
@@ -56,7 +57,7 @@ function About() {
               <div className="mt-12 mx-auto max-w-md overflow-hidden rounded-full border border-border bg-surface shadow-lg">
                 <div className="aspect-square overflow-hidden">
                   <img
-                    src="../public/images/misc/self.jpg"
+                    src={`${import.meta.env.BASE_URL}images/misc/self.jpg`}
                     alt="Portrait of me"
                     className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                   />
@@ -249,12 +250,12 @@ function About() {
               Interested in working together?
             </h2>
 
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="mt-8 inline-flex border border-border px-6 py-3 font-mono text-xs uppercase tracking-wider text-text-secondary transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:text-accent"
             >
               Contact Me ↗
-            </a>
+            </Link>
           </Reveal>
         </div>
       </section>

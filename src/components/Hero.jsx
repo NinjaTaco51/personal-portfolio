@@ -4,7 +4,7 @@ import { personal } from "../data/personal";
 function Hero() {
     return (
         <section className="relative overflow-hidden border-b border-border">
-            <div className="mx-auto flex min-h-[calc(100vh-80px)] max-w-[1400px] items-center px-6 lg:px-10">
+            <div className="mx-auto flex min-h-[900px] max-w-[1400px] items-center px-6 lg:px-10">
                 <div className="w-full">
                     <div className="flex items-center gap-4">
                         <span className="h-px w-10 bg-accent" />

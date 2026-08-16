@@ -35,13 +35,13 @@ export const projects = [
     github:
       "https://github.com/NinjaTaco51/credit-lending-ai-blockchain",
 
-    image: "../../public/images/projects/credit-lending/credit-assessment-dashboard.png",
+    image: `${import.meta.env.BASE_URL}images/projects/credit-lending/credit-assessment-dashboard.png`,
 
     gallery: [
-      "../../public/images/projects/credit-lending/individuals-loans.png",
-      "../../public/images/projects/credit-lending/loan-payment-req.png",
-      "../../public/images/projects/credit-lending/make-loan-req.png",
-      "../../public/images/projects/credit-lending/profile-page.png",
+      `${import.meta.env.BASE_URL}images/projects/credit-lending/individuals-loans.png`,
+      `${import.meta.env.BASE_URL}images/projects/credit-lending/loan-payment-req.png`,
+      `${import.meta.env.BASE_URL}images/projects/credit-lending/make-loan-req.png`,
+      `${import.meta.env.BASE_URL}images/projects/credit-lending/profile-page.png`,
     ],
 
     featured: true,
@@ -68,14 +68,15 @@ export const projects = [
     status:
       "Completed",
 
-    image: "../../public/images/projects/clickbait/landing.png",
+    image: `${import.meta.env.BASE_URL}images/projects/clickbait/landing.png`,
 
     gallery: null,
 
     technologies: [
       "React",
       "JavaScript",
-      "[TECHNOLOGY]",
+      "HTML",
+      "CSS",
     ],
 
     github: "https://github.com/NinjaTaco51/BroncoHacks2025",
@@ -97,7 +98,7 @@ export const projects = [
     description:
       "Wordle, reimagined around Cal Poly Pomona courses.",
 
-    image: "../../public/images/projects/classdle/landing.png",
+    image: `${import.meta.env.BASE_URL}images/projects/classdle/landing.png`,
 
     imageType: "mobile",
 
@@ -113,8 +114,8 @@ export const projects = [
 
     technologies: [
       "Dart",
+      "Flutter",
       "Android Studio",
-      "[TECHNOLOGY]",
     ],
 
     github: "https://github.com/NinjaTaco51/classdle_app",

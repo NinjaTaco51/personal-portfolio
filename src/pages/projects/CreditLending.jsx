@@ -97,7 +97,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[PLATFORM OVERVIEW VISUAL]"
-          src="../../public/images/projects/credit-lending/loan-req-page.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/loan-req-page.png`}
         />
       </ProjectSection>
 
@@ -127,7 +127,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[ARCHITECTURE DIAGRAM]"
-          src="../../public/images/projects/credit-lending/system-architecture.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/system-architecture.png`}
         />
       </ProjectSection>
 
@@ -191,7 +191,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[AI PIPELINE VISUAL]"
-          src="../../public/images/projects/credit-lending/ai-pipeline.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/ai-pipeline.png`}
         />
 
         <h3 className="mt-16 text-3xl font-semibold tracking-tight md:text-4xl">
@@ -248,7 +248,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[BLOCKCHAIN WORKFLOW VISUAL]"
-          src="../../public/images/projects/credit-lending/blockchain-pipeline.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/blockchain-pipeline.png`}
         />
 
         <h3 className="mt-16 text-3xl font-semibold tracking-tight md:text-4xl">
@@ -308,7 +308,7 @@ function CreditLending() {
 
         <ProjectVisual
           label="[IMPLEMENTATION FLOW VISUAL]"
-          src="../../public/images/projects/credit-lending/credit-assessment-dashboard.png"
+          src={`${import.meta.env.BASE_URL}images/projects/clickbait/credit-assessment-dashboard.png`}
         />
       </ProjectSection>
 
