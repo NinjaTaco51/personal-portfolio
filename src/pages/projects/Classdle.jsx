@@ -65,10 +65,15 @@ function Classdle() {
         </h3>
 
         <p className="mt-6 text-lg leading-8 text-text-secondary">
-          Instead of comparing letters, Classdle compares information
-          associated with each course. The result of each guess is
-          represented through visual feedback that helps players narrow
-          down the target.
+          Each round asks the player to identify a Cal Poly Pomona course
+          from the available course catalog. After submitting a guess,
+          Classdle compares the selected course against the answer using
+          several criteria.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-text-secondary">
+          Each criterion produces visual feedback indicating whether the
+          guess was correct, partially correct, or incorrect.
         </p>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
@@ -213,24 +218,24 @@ function Classdle() {
       </ProjectSection>
 
       {/* Fuzzy Search */}
-      <ProjectSection title="Technical Challenge">
+      <ProjectSection title="Challenges">
         <h3 className="text-3xl font-semibold tracking-tight md:text-4xl">
-          Making Course Search More Flexible
+          Working With Course Data
         </h3>
 
         <p className="mt-6 text-lg leading-8 text-text-secondary">
-          Players need to be able to search through a large collection
-          of CPP courses when making a guess. We worked on fuzzy-search
-          behavior so that course selection did not depend entirely on
-          entering an exact course name.
+          The most difficult part of the project was connecting the raw
+          course data to the gameplay system. The application needed to
+          separate the information stored in the CSV file, select the
+          appropriate course, and make that data available for comparison
+          during gameplay.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-text-secondary">
-          Understanding how the fuzzy-search logic evaluated and matched
-          user input was one of the more difficult technical challenges
-          of the project. Working through it gave me a better understanding
-          of handling imperfect user input and connecting search behavior
-          to an interactive application.
+          Implementing fuzzy search was another challenge. Understanding
+          how the search logic should determine whether a player's input
+          corresponded to an available course required significant
+          iteration and debugging.
         </p>
 
         <MobileProjectVisual
@@ -242,29 +247,27 @@ function Classdle() {
       {/* Outcome */}
       <ProjectSection title="Outcome">
         <p className="text-xl leading-9 text-text-primary md:text-2xl">
-          Classdle resulted in a playable mobile application that
-          reimagines Wordle around Cal Poly Pomona's course catalog.
+          Classdle resulted in a working mobile game that combines a familiar
+          Wordle-style experience with Cal Poly Pomona course information.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-text-secondary">
-          Working as part of a four-person team gave me practical
-          experience contributing to UI design, game logic, course
-          selection, routing, and fuzzy search while learning how to
-          build an application with Flutter.
+          The project gave me practical experience building an application
+          with Flutter and helped me understand how frontend interfaces,
+          application logic, local data, and user interaction come together
+          in a mobile application.
         </p>
 
-        {project.github && (
-          <div className="mt-10">
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-3 border border-border px-5 py-3 font-mono text-xs uppercase tracking-wider text-text-secondary transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:text-accent"
-            >
-              View Project ↗
-            </a>
-          </div>
-        )}
+        <div className="mt-10">
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-3 border border-border px-5 py-3 font-mono text-xs uppercase tracking-wider text-text-secondary transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:text-accent"
+          >
+            View GitHub Repository ↗
+          </a>
+        </div>
       </ProjectSection>
 
       {/* Project Navigation */}

@@ -4,7 +4,7 @@ import { personal } from "../data/personal";
 function Hero() {
     return (
         <section className="relative overflow-hidden border-b border-border">
-            <div className="mx-auto flex min-h-[calc(100vh-80px)] max-w-[1400px] items-center px-6 py-24 lg:px-10">
+            <div className="mx-auto flex min-h-[calc(100vh-80px)] max-w-[1400px] items-center px-6 lg:px-10">
                 <div className="w-full">
                     <div className="flex items-center gap-4">
                         <span className="h-px w-10 bg-accent" />
@@ -23,7 +23,7 @@ function Hero() {
                     <div className="mt-16 grid gap-8 md:grid-cols-12">
                         <div className="md:col-span-5 md:col-start-8">
                             <p className="text-lg leading-8 text-text-secondary">
-                                {personal.introduction}
+                                {personal.shortIntro}
                             </p>
 
                             <div className="mt-8 flex flex-wrap gap-4">

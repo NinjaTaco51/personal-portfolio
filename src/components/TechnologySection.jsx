@@ -4,21 +4,25 @@ import { skills } from "../data/skills";
 
 const categories = [
     {
-        title: "Development",
+        title: "languages",
         items: skills.languages,
     },
     {
         title: "Web",
-        items: skills.web,
+        items: skills.frontendWeb,
     },
     {
-        title: "Cloud",
-        items: skills.cloud,
+        title: "Tools & Platforms",
+        items: skills.toolsPlatforms,
     },
     {
         title: "AI / Data",
         items: skills.aiData,
     },
+    {
+        titlee: "App Dev",
+        items: skills.applicationDevelopment
+    }
 ];
 
 function TechnologySection() {
@@ -26,7 +30,7 @@ function TechnologySection() {
         <section className="mx-auto max-w-[1400px] px-6 py-24 lg:px-10 lg:py-32">
             <SectionHeader number="02" title="Technologies" />
             <Reveal>
-                <div className="grid border-l border-t border-border md:grid-cols-2 lg:grid-cols-4">
+                <div className="grid border-l border-t border-border md:grid-cols-2 lg:grid-cols-5">
                     {categories.map((category) => (
                         <div
                             key={category.title}

@@ -3,32 +3,43 @@ export const skills = {
     "Java",
     "Python",
     "JavaScript",
-    "PHP",
     "SQL",
+    "PHP",
     "Dart",
   ],
 
-  web: [
+  frontendWeb: [
     "React",
-    "Tailwind CSS",
     "HTML",
     "CSS",
-    "JavaScript",
-  ],
-
-  cloud: [
-    "AWS",
-    "GCP",
+    "Tailwind CSS",
+    "FastAPI",
   ],
 
   aiData: [
-    "[TECHNOLOGY]",
-    "[TECHNOLOGY]",
+    "PyTorch",
+    "Pandas",
+    "scikit-learn",
+    "Machine Learning",
+    "Feature Engineering",
+    "Data Preprocessing",
   ],
 
-  tools: [
+  applicationDevelopment: [
+    "Flutter",
+    "Mobile Development",
+    "UI / UX",
+    "Game Logic",
+    "Fuzzy Search",
+    "API Integration",
+  ],
+
+  toolsPlatforms: [
     "Git",
     "GitHub",
-    "Android Studio",
+    "Supabase",
+    "MongoDB",
+    "AWS",
+    "GCP",
   ],
 };

@@ -15,7 +15,7 @@ function AboutPreview() {
                 </div>
 
                 <div className="md:col-span-7 md:col-start-6">
-                    <p className="text-2xl leading-relaxed text-text-primary md:text-3xl">
+                    <p className="text-xl leading-relaxed text-text-primary md:text-2xl">
                         {personal.introduction}
                     </p>
 

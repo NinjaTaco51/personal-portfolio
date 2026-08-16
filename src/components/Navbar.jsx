@@ -31,10 +31,9 @@ function Navbar() {
               key={item.to}
               to={item.to}
               className={({ isActive }) =>
-                `font-mono text-xs uppercase tracking-wider transition-colors ${
-                  isActive
-                    ? "text-accent"
-                    : "text-text-secondary hover:text-text-primary"
+                `font-mono text-xs uppercase tracking-wider transition-colors ${isActive
+                  ? "text-accent"
+                  : "text-text-secondary hover:text-text-primary"
                 }`
               }
             >
@@ -43,10 +42,12 @@ function Navbar() {
           ))}
 
           <a
-            href="/resume/resume.pdf"
-            className="font-mono text-xs uppercase tracking-wider text-text-secondary transition-colors hover:text-accent"
+            href="../public/resume/davidlam_resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="transition-colors hover:text-accent"
           >
-            Resume ↗
+            RESUME ↗
           </a>
         </div>
 

@@ -489,8 +489,8 @@ function Clickbait() {
           path: "/work/credit-lending",
         }}
         next={{
-          title: "Next Project",
-          path: "/work/next-project",
+          title: "Classdle",
+          path: "/work/classdle",
         }}
       />
     </PageShell>

@@ -92,12 +92,14 @@ export const projects = [
     category: "MOBILE · DART · ANDROID",
 
     overview:
-      "Classdle is a Flutter-based recreation of Wordle that reimagines the game around Cal Poly Pomona courses. Instead of guessing a word, players use course information and feedback from previous guesses to identify the correct course.",
+      "Classdle is a mobile game that reimagines the mechanics of Wordle using courses from Cal Poly Pomona. Players attempt to identify the correct course while receiving feedback based on multiple course criteria.",
 
     description:
       "Wordle, reimagined around Cal Poly Pomona courses.",
 
     image: "../../public/images/projects/classdle/landing.png",
+
+    imageType: "mobile",
 
     gallery: null,
 
@@ -115,7 +117,7 @@ export const projects = [
       "[TECHNOLOGY]",
     ],
 
-    github: "[REPOSITORY OR DEMO URL]",
+    github: "https://github.com/NinjaTaco51/classdle_app",
 
     featured: false,
   },
